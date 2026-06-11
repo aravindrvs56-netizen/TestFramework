@@ -1,0 +1,40 @@
+{
+  "validAdmin": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "invalidUser": {
+    "username": "invalid_user",
+    "password": "wrong_password"
+  },
+  "invalidUsername": {
+    "username": "not_a_real_user",
+    "password": "admin123"
+  },
+  "invalidPassword": {
+    "username": "Admin",
+    "password": "wrong_password"
+  },
+  "blankUsername": {
+    "username": "",
+    "password": "admin123"
+  },
+  "blankPassword": {
+    "username": "Admin",
+    "password": ""
+  },
+  "boundary": {
+    "username": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "password": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
+  },
+  "api": {
+    "validCreateUser": {
+      "name": "Finance Analyst",
+      "username": "finance.analyst",
+      "email": "analyst@payroll.finance"
+    },
+    "invalidCreateUser": {
+      "name": "Missing Email User"
+    }
+  }
+}
